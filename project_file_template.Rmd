@@ -1,0 +1,35 @@
+---
+title: 
+author: 
+date: 
+output: html_document
+---
+
+# Note that this R markdown code includes 'code chunks' that specify settings
+# You may use multiple R code chunks if you want settings to differ between them, or if
+# you generally want to run only certain code chunks at a time step by step
+# Code chunks are indicated by the triple backticks with the r within curly braces, which
+# may have additional options
+
+# Load packages:
+
+```{r setup, include=FALSE}
+# These packages all need to be installed for the work today
+# This first knitr command sets various settings, importantly it
+# sets the working directory to the folder this file is contained in
+
+# Eventually we may use knitr, but here is enough
+# knitr::opts_chunk$set(echo = TRUE)
+library(here) # Use here to refer to the relative path of the object within the project folder!
+# Specify the project's path
+# MAKE SURE TO CHANGE THE FILENAME OF TEMPLATE IF YOU CHANGE FILENAME OF THIS SCRIPT
+i_am("template.Rmd") 
+# Put other libraries here
+
+```
+
+## Remaining code
+```{r}
+# Put code here
+
+```
